@@ -51,8 +51,8 @@
 
       // create the controller and inject Angular's $scope
       scotchApp.controller('mainController', function($scope, $http) {
-        $http.get('https://raw.githubusercontent.com/siimeon-ci/hs-sarjis/master/fingerpori.json')
-         .then(function(res){
+        $http.jsonp('https://raw.githubusercontent.com/siimeon-ci/hs-sarjis/master/fingerpori.json')
+         .success(function(res){
             $scope.data = res.data;
             console.log(res.data);
         });
