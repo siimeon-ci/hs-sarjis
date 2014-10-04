@@ -2,5 +2,5 @@ Helsingin Sanomat Comic Parser
 =========
 This project has bash scripts for parsing HS comics like Fingerpori
 
-![Fingerpori](http://hs12.snstatic.fi/webkuva/sarjis/560/1305880319422?ts=262)
+![Fingerpori](http://hs11.snstatic.fi/webkuva/sarjis/560/1305880716800?ts=1082)
 
